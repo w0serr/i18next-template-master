@@ -1,0 +1,13 @@
+{
+  "title": "New Year Celebration",
+  "greeting": "Happy New Year!",
+  "description": {
+    "part1": "As the clock strikes midnight, we welcome a new year filled with hope and joy.",
+    "part2": "Join us in celebrating with fireworks, laughter, and cherished moments with loved ones.",
+    "part3": "May this year bring you happiness, health, and prosperity!"
+  },
+  "traditions": {
+    "part1": "In many cultures, it is traditional to make resolutions for the new year.",
+    "part2": "People often reflect on the past year and set goals for the year ahead."
+  }
+}

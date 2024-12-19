@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, Aeroport, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#ffffff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #c0392b;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ff4757;
+  color: white;
+  border: none; 
+  border-radius: 105px;
+  padding: 25px 60px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6b81;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background: linear-gradient(45deg, #ff4757, #fffa65);
+  background-size: 200% 200%;
+  animation: gradientAnimation 3s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.description {
+  font-size: 1.1em;
+  margin: 10px 0;
+  text-align: center;
+}
